@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Verdana';
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+.num {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background: #080001;
+    font-size: 90px;
+    padding: 8px 24px;
+    border-radius: 8px;
+    width: 150px;
+    margin-top: 0;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    border: #EEEEEE solid 1px;
+    padding: 7px;
+    background: #1B244A;
+    border-radius: 10px;
+    color: #EEEEEE;
+    font-family: 'Cursed Timer ULiL';
+}
+
+.btn:hover {
+    background: darkblue;
+}
+
+#game {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#game-btn {
+    display: flex;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: #1B244A;
+    border-radius: 13px;
+    color: #EEEEEE;
+    border: #EEEEEE solid 1px;
+    width: 125px;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+#game-btn:hover {
+    background: darkblue;
+}
